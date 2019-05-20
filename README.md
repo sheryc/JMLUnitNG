@@ -17,3 +17,5 @@ under test may not use such features when generating tests for JML2 RAC.
 
 JMLUnitNG has not been under active development since 2014; however, development will likely
 resume in the future. 
+
+Update: 2019.5.20 Version 1.5. Updated OpenJML to version 0.8.42, added support for java 8 syntax.
