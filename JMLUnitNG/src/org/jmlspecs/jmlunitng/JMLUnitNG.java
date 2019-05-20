@@ -153,7 +153,8 @@ public final class JMLUnitNG implements Runnable {
    * @return the version string, generated from SVN properties.
    */
   public static String version() {
-    final String svn_rev = RAW_SVN_REV.substring(6, RAW_SVN_REV.length() - 2);
+    // final String svn_rev = RAW_SVN_REV.substring(6, RAW_SVN_REV.length() - 2);
+    final String svn_rev = "0.8.42";
     String jml_version = "OpenJML Version Unknown";
     try {
       jml_version = Factory.makeAPI(null).version();
